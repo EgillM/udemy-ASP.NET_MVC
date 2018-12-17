@@ -210,6 +210,14 @@
     <Compile Include="Migrations\201811281700583_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201811281700583_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812171156107_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201812171156107_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201812171156107_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171201165_SetNameOfMembershipTypesToo.cs" />
+    <Compile Include="Migrations\201812171201165_SetNameOfMembershipTypesToo.Designer.cs">
+      <DependentUpon>201812171201165_SetNameOfMembershipTypesToo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -298,6 +306,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811281700583_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201811281700583_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171156107_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201812171156107_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171201165_SetNameOfMembershipTypesToo.resx">
+      <DependentUpon>201812171201165_SetNameOfMembershipTypesToo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
